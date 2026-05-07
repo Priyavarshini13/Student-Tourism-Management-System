@@ -1,0 +1,12 @@
+/* App-level global overrides */
+* { box-sizing: border-box; }
+
+/* Smooth page transitions */
+.page-wrapper {
+  animation: fadeInUp 0.4s ease both;
+}
+
+/* Auth error helper (imported in auth pages) */
+.auth-error, .auth-success {
+  animation: fadeInUp 0.3s ease;
+}
